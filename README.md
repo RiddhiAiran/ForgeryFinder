@@ -1,18 +1,50 @@
-# Forgery Finder
-Unmasking PAN Card Tampering
+# Forgery Finder: PAN Card Tampering Detection
 
-- In this Project we will Detect Tampering of PAN CARD using Computer Vision. This Project Will Help the Different Organization in Detecting
-  Wheather the ID i.e. PAN Card provided to them by their employees or Customers or Anyone is original or not.
+## 📸 Project Overview
+Forgery Finder is an advanced Computer Vision project designed to detect tampering in PAN (Permanent Account Number) cards. This innovative solution helps organizations verify the authenticity of identification documents submitted by employees, customers, or any other individuals.
 
-- Done This propject in 10 Simple Steps :
-  1. Get Images from User
-  2. Check for size and formate of the image
-  3. change shape and size of image according to the original image
-  4. covert the image to grayscale
-  5. find the similarity index of the images.
-  6. finding the threshold of the image
-  7. finding contour and grab those contour using imutils
-  8. draw a boundary rectangle using these contours
-  9. plot difference, threshol, original and tampered image
-  10. compare all the images and check the similarity score to decide tampering
-  
+## 🎯 Project Objectives
+- Develop a robust image analysis system
+- Detect potential manipulations in PAN cards
+- Provide a reliable method for document verification
+- Enhance organizational security through advanced image forensics
+
+## 🛠 Technical Approach
+The project employs sophisticated image processing techniques to identify potential forgeries:
+
+1. **Image Acquisition**: Collect PAN card images from users
+2. **Image Preprocessing**:
+   - Validate image size and format
+   - Resize and reshape images
+   - Convert to grayscale
+3. **Comparative Analysis**:
+   - Calculate image similarity index
+   - Determine image thresholds
+   - Detect and analyze image contours
+4. **Visualization**:
+   - Draw boundary rectangles
+   - Compare original and potentially tampered images
+5. **Tampering Detection**:
+   - Compare similarity scores
+   - Make tampering determination
+
+## 🔍 Key Features
+- Automated PAN card authenticity verification
+- Advanced computer vision algorithms
+- Detailed image comparison techniques
+- High precision tampering detection
+
+## 📦 Installation
+
+### Prerequisites
+- Python 3.8+
+- OpenCV
+- NumPy
+- Imutils
+
+### Setup
+```bash
+git clone https://github.com/riddhiairan/ForgeryFinder.git
+cd ForgeryFinder
+pip install -r requirements.txt
+```
