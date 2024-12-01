@@ -1,1 +1,5 @@
-Flask
+opencv-python==4.5.5.64
+numpy==1.22.3
+imutils==0.5.4
+scikit-image==0.19.2
+matplotlib==3.5.1
